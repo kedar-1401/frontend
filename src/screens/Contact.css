@@ -1,0 +1,222 @@
+.image-about{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    margin: 0px 10px 0px 10px;
+    height: auto;
+    overflow: scroll;
+}
+.head{
+    height: 4rem;
+    width: 100%;
+    background: rgb(45, 172, 223);
+    color: white;
+    margin-top: 4rem;
+    overflow: hidden;
+}
+.head h1{
+    padding: 1rem;
+    color: white;
+}
+.hodInfo{
+    height: auto;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    position: relative;
+    border-radius: 3rem;
+    box-shadow: 1px 1px 1px 1px rgba(185, 166, 166, 0.2);
+}
+.hodInfo:hover{
+    box-shadow: 7px 7px 7px 7px rgba(224, 176, 176, 0.2);
+}
+.hodInfo .info{
+    padding: 4rem 0 0 4rem;
+    height: auto;
+    width: 60%;
+    margin-right: 9%;
+}
+.info h1{
+    color: white;
+}
+.info p{
+    font-size: 2rem;
+}
+.hodInfo .icons p{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.icons #india{
+    margin-left: 20%;
+    color: white;
+}
+.icons{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 5%;
+}
+.icons i{
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    overflow: visible;
+    color: #fff;
+}
+.icons a{
+    color: white;
+    text-decoration: none;
+}
+/* Styling For Form of Feedback */
+.cont{
+    height: 70rem;
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+}
+.cont h1{
+    margin-bottom: 3rem;
+    margin-left: 40%;
+    font-size: 3rem;
+    color: #fff;
+}
+.cont p{
+    margin-left: 0rem;
+    font-size: 2rem;
+}
+.name-email{
+    display: flex;
+    margin-top: 3rem;
+}
+.name-email p{
+    margin-left: 0rem;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+.name{
+    display: block;
+    margin-right: 10rem;
+    width: 120%;
+}
+.name input{
+    width: 100%;
+    height: 4rem;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    padding-left: 1rem;
+}
+.sub-msg p{
+    margin-top: 2rem;
+}
+.sub-msg input{
+    width: 93%;
+    height: 4rem;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    padding: 1rem;
+    font-weight: 200;
+}
+.sub-msg p{
+    margin-left: 0rem;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+.sub-msg textarea{
+    width: 93%;
+    border-radius: .5rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+/* Styling For Send Button  */
+.but button{
+    height: 4rem;
+    width: 8rem;
+    margin-top: 5rem;
+    margin-left: 40%;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background: rgb(45, 172, 238);
+    font-weight: 500;
+    font-size: 1.6rem;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+.but button:hover{
+    box-shadow:2px 2px 2px 2px  rgba(0,0,0,0.2);
+}
+@media only screen and (max-width: 768px){
+   
+.image-about{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 2rem;
+    display: block;
+}
+.hodInfo{
+    display: block;
+    margin: 2rem;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    
+}
+.hodInfo .info{
+    padding:0%;
+    height: auto;
+    overflow: hidden;
+}
+.hodInfo .info p{
+    text-align: left;
+}
+.icons{
+    display: none;
+}
+.icons i{
+    margin-left: 7rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+/* Styling For Form */
+.cont{
+    display: block;
+    margin-left: 2rem;
+    height: auto;
+    width: 100%;
+}
+.cont h1{
+    text-align: center;
+    margin-left: 1rem;
+}
+.cont p{
+    margin-left: 0rem;
+}
+.name-email{
+    display: block;
+    overflow: hidden;
+}
+.name{
+    width: 90%;
+    overflow: hidden;
+}
+ .name input{
+    width: 100%;
+    height: 4rem;
+    border-radius: .5rem;
+    border: 1px solid gray;
+}
+input{
+    font-size: 1.7rem;
+}
+/* Send Button styling */
+.but button{
+    text-align: center;
+    margin: 3rem;
+}
+.but button:hover{
+    box-shadow:2px 2px 2px 2px  rgba(0,0,0,0.2);
+}
+}
