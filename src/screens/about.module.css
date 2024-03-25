@@ -1,0 +1,75 @@
+.main{
+    display:flex;
+}
+
+.left{
+    width:55%;
+}
+
+.secondarybtn {
+    background-color: transparent;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0.2rem var(--btn-color);
+    margin-left: 3.2rem;
+    color: aliceblue;
+    border-radius: 0.5rem; /* Adjust border-radius for roundness */
+    padding: 0.8rem 1.6rem; /* Increase padding for larger size */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
+  }
+  
+  .secondarybtn:hover{
+    color:black;
+    background-color: aliceblue;
+  }
+  
+  .header{
+    font-size: 3rem;
+  }
+
+  .part{
+    font-size: 2rem;
+  }
+
+  button {
+    text-transform: capitalize;
+    padding: 1rem 2.2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    background-color: var(--btn-color);
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+    border: 0.1rem solid transparent;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    transition: border-color 0.3s;
+    -webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -ms-transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+  }
+
+.right{
+    margin-top:12rem;
+    width:45%;
+}
+
+.heroimage{
+    width:"100%";
+    height:"100%";
+    align-items: end;
+    object-fit:"cover"
+
+}
+.herocontent {
+    margin-top: 8rem;
+    & p {
+      margin: 2.4rem 0 4.8rem 0;
+      
+      &:first-child {
+        margin: 0 0 1.2rem 0;
+      }
+    }
+  }

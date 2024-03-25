@@ -68,6 +68,9 @@
   }
 } */
 
+.container{
+  margin-bottom:0.5rem;
+}
 
 .navigation-wrap{
   position:fixed;

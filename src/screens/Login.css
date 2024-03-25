@@ -213,9 +213,9 @@ span a:hover{
 
 .awards .award1 {
 
-    height: auto;
-    width: 50%;
-    margin: 5rem 4rem 1rem 0rem;
+    height: fit-content;
+    width: 80%;
+    margin:  4rem 1rem 0rem;
     position: relative;
     /* background: #fff; */
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -252,12 +252,11 @@ span a:hover{
     .awards {
         text-align: center;
         margin: 0rem;
-        
         padding: 0rem;
         width: 100%;
     }
 
-    .awards .award1 {
+    .award1 {
         height: auto;
         width: 100%;
     }

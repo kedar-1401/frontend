@@ -1,6 +1,8 @@
 import React from "react";
 import {useState,useEffect} from 'react';
 import Axios from 'axios';
+import Mainheader from "./mainhead";
+import RHeader from "./rightzone";
 import "./Login.css";
 import imageRC from '../images/airhostess.jpg'
 const About = () => {
@@ -26,39 +28,8 @@ useEffect(() => {
 }, []);
 
   return (
-   <> <main>
-   <section className="section-hero">
-     <div className="container grid grid-two-cols">
-       <div className="hero-content">
-         <p> Managed by Human Services</p>
-         <h1>Akash Career and Personality Development Academy</h1>
-         <p>
-         We provide all the course information from our seminars on teaching how to handle students from 1st to 4th, how to feed them, how to teach them what to feed them           </p>
-         <div className="btn btn-group">
-           <a href="/contact">
-             <button className="btn">connect now</button>
-           </a>
-           <a href="/services">
-             <button className="btn secondary-btn">learn more</button>
-           </a>
-         </div>
-       </div>
-
-       {/* hero images  */}
-       {/* <div className="hero-image">
-         <img
-           src={home}
-           alt="coding together"
-           width="400"
-           height="500"
-         />
-       </div> */}
-     </div>
-   </section>
- </main>
-
- {/* 2nd section  */}
- {/* <Analytics /> */}
+   <> 
+   <Mainheader/>
  <section className="section-analytics">
                 <div className="container text-center">
                     <div className="div1">
@@ -87,39 +58,7 @@ useEffect(() => {
                     </div>
                 </div>
             </section>
- {/* 3rd section  */}
- <section className="section-hero">
-   <div className="container grid grid-two-cols">
-     {/* hero images  */}
-     <div className="hero-image">
-       <img
-         src=""
-         alt="coding together"
-         width="400"
-         height="500"
-       />
-     </div>
-
-     <div className="hero-content">
-       <p>We are here to help you</p>
-       <h1>Get Started Today</h1>
-       <p>
-         Ready to take the first step towards a more efficient and secure
-         IT infrastructure? Contact us today for a free consultation and
-         let's discuss how Thapa Technical can help your business thrive in
-         the digital age.
-       </p>
-       <div className="btn btn-group">
-         <a href="/contact">
-           <button className="btn">connect now</button>
-         </a>
-         <a href="/services">
-           <button className="btn secondary-btn">learn more</button>
-         </a>
-       </div>
-     </div>
-   </div>
- </section>
+ <RHeader/>
 </>
   );
 };

@@ -1,0 +1,36 @@
+.footer {
+    margin-top:3rem;
+    background-color: #1b2430;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+  }
+  
+  .container {
+    margin-top:5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .link:hover {
+    color: aquamarine;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+  }
+  
